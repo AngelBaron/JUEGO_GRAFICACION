@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4497287355308058}
   - component: {fileID: 58597864668446422}
   - component: {fileID: 50445380046082714}
+  - component: {fileID: 114973645472195414}
   m_Layer: 0
   m_Name: RUEDA_ENFRENTE
   m_TagString: Untagged
@@ -406,9 +407,21 @@ MonoBehaviour:
   ruedaFrente: {fileID: 50445380046082714}
   ruedaAtras: {fileID: 50362957006484436}
   fuerzaMotor: 15
+  fuerzaVuelta: 10
   fuerzaFreno: 10
   velocidadGiro: 150
   velocidadMaxima: 50
+--- !u!114 &114973645472195414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176736091076686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af4a7bfc594d649be01e2ec9ed5e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212256500422296722
 SpriteRenderer:
   m_ObjectHideFlags: 1
