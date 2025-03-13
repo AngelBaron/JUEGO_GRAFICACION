@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class CARRO : MonoBehaviour
 {
-
     public Rigidbody2D cuerpo;
     public Rigidbody2D ruedaFrente;
     public Rigidbody2D ruedaAtras;
     public float fuerzaMotor = 10f;
-    public float fuerzaVuelta = 10f;
+    public float fuerzaVuelta = 10f; // Fuerza de cambio de dirección (izquierda/derecha)
     public float fuerzaFreno = 5f;
     public float velocidadGiro = 100f;
-    public float velocidadMaxima = 20f; // Ajusta este valor según sea necesario
+    public float velocidadMaxima = 20f; // Velocidad máxima del carro
+
     void Update()
     {
         // Acelerar (D)
         if (Input.GetKey(KeyCode.D))
         {
             cuerpo.AddForce(Vector2.right * fuerzaMotor);
-            GirarRuedas(true,cuerpo.velocity.x/2);
+            GirarRuedas(true, cuerpo.velocity.x / 2);
         }
 
         // Frenar (A) solo si hay velocidad en X
@@ -36,7 +36,7 @@ public class CARRO : MonoBehaviour
                 DetenerRuedas(); // Detener la rotación de las ruedas
             }
 
-            GirarRuedas(false,0);
+            GirarRuedas(false, 0);
         }
 
         // Moverse a la izquierda (W) o derecha (S) solo si hay velocidad en X
@@ -44,12 +44,18 @@ public class CARRO : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.W))
             {
-                cuerpo.AddForce(Vector2.up * fuerzaVuelta);
+                // Cambiar la velocidad en Y directamente (izquierda/arriba)
+                cuerpo.velocity = new Vector2(cuerpo.velocity.x, fuerzaVuelta);
             }
-
-            if (Input.GetKey(KeyCode.S))
+            else if (Input.GetKey(KeyCode.S))
             {
-                cuerpo.AddForce(Vector2.down * fuerzaVuelta);
+                // Cambiar la velocidad en Y directamente (derecha/abajo)
+                cuerpo.velocity = new Vector2(cuerpo.velocity.x, -fuerzaVuelta);
+            }
+            else
+            {
+                // Si no se presiona W o S, mantener la velocidad en Y en 0
+                cuerpo.velocity = new Vector2(cuerpo.velocity.x, 0);
             }
         }
         else
@@ -59,7 +65,6 @@ public class CARRO : MonoBehaviour
         }
 
         LimitarVelocidad();
-
     }
 
     void GirarRuedas(bool acelerando, float veloz)
@@ -77,7 +82,6 @@ public class CARRO : MonoBehaviour
 
     void LimitarVelocidad()
     {
-
         if (cuerpo.velocity.magnitude > velocidadMaxima)
         {
             cuerpo.velocity = cuerpo.velocity.normalized * velocidadMaxima;
@@ -90,7 +94,4 @@ public class CARRO : MonoBehaviour
         // Reducir la velocidad del carro
         cuerpo.velocity *= (1 - reduccion / 100f); // Reducción porcentual
     }
-
-
-
 }
