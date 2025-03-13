@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class RuedaFrente : MonoBehaviour
 {
-    private CARRO carro; // Referencia al script CARRO
+    public Transform padre;
+
+    private CARRO carro;
 
     void Start()
     {
         // Obtener la referencia al script CARRO (puede estar en el padre o en otro objeto)
-        carro = GetComponentInParent<CARRO>();
+        carro = padre.GetComponentInChildren<CARRO>();
         if (carro == null)
         {
             Debug.LogError("No se encontró el script CARRO en el padre de la rueda.");
@@ -30,4 +32,7 @@ public class RuedaFrente : MonoBehaviour
             }
         }
     }
+
+      // Método para reducir la velocidad del carro
+    
 }
