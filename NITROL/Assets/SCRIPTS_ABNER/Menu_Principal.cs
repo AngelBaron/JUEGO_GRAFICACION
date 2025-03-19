@@ -11,6 +11,11 @@ public class Menu_Principal : MonoBehaviour {
         SceneManager.LoadSceneAsync(1);
     }
 
+    public void Run()
+    {
+        SceneManager.LoadSceneAsync(6);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

@@ -576,133 +576,40 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalPosition.x
       value: -154.46
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalPosition.y
       value: 8.104
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    - target: {fileID: 4651672064436586, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3.3797643
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.3797643
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3.3797643
-      objectReference: {fileID: 0}
-    - target: {fileID: 235967291526746900, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_Suspension.m_Frequency
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 235139814965435190, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_Suspension.m_Frequency
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 235139814965435190, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_Suspension.m_DampingRatio
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 235967291526746900, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_Suspension.m_DampingRatio
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882053365030840, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: velocidadMaxima
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882053365030840, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: fuerzaMotor
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882053365030840, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: fuerzaVuelta
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 114882053365030840, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: fuerzaFreno
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871387485090864, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497287355308058, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4664530276437172, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114973645472195414, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: padre
-      value: 
-      objectReference: {fileID: 1479463261}
-    - target: {fileID: 58592683907162904, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 58597864668446422, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398886617125870, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_Name
-      value: CARRO (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1398886617125870, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1693289370024278, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 50345491000286928, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-    - {fileID: 114882053365030840, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: bea7fd86b3ad119418b31ea5b2f82db7, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9c4894bd3072ebc44b409e8027bebb6e, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &336851908
 GameObject:
@@ -1378,11 +1285,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!50 &1081266020 stripped
-Rigidbody2D:
-  m_PrefabParentObject: {fileID: 50445380046082714, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-    type: 2}
-  m_PrefabInternal: {fileID: 336850275}
 --- !u!1 &1134323583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,11 +1617,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!50 &1325364974 stripped
-Rigidbody2D:
-  m_PrefabParentObject: {fileID: 50362957006484436, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-    type: 2}
-  m_PrefabInternal: {fileID: 336850275}
 --- !u!1 &1346125152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,43 +1845,9 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1463790637 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1693289370024278, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-    type: 2}
-  m_PrefabInternal: {fileID: 336850275}
 --- !u!4 &1463790638 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 4871387485090864, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-    type: 2}
-  m_PrefabInternal: {fileID: 336850275}
---- !u!114 &1463790639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1463790637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9e7fa613e4294844b18b050e5596969, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuerpo: {fileID: 1463790642}
-  ruedaFrente: {fileID: 1081266020}
-  ruedaAtras: {fileID: 1325364974}
-  fuerzaMotor: 50
-  fuerzaVuelta: 30
-  fuerzaFreno: 40
-  velocidadGiro: 100
-  velocidadMaxima: 200
---- !u!50 &1463790642 stripped
-Rigidbody2D:
-  m_PrefabParentObject: {fileID: 50669462464886008, guid: bea7fd86b3ad119418b31ea5b2f82db7,
-    type: 2}
-  m_PrefabInternal: {fileID: 336850275}
---- !u!4 &1479463261 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4905839933119054, guid: bea7fd86b3ad119418b31ea5b2f82db7,
+  m_PrefabParentObject: {fileID: 4703435600813310, guid: 9c4894bd3072ebc44b409e8027bebb6e,
     type: 2}
   m_PrefabInternal: {fileID: 336850275}
 --- !u!1 &1489623970

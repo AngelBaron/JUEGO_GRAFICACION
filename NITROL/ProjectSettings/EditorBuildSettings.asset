@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ESCENA_LVL5.unity
     guid: ed8046d86b88053429814532c9864170
+  - enabled: 1
+    path: Assets/RUN/RUN1.unity
+    guid: 8041716de4d20e44db11c46251e0b1dc
