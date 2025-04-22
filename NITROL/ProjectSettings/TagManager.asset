@@ -8,6 +8,7 @@ TagManager:
   - PuntoFinal
   - LineaFinal
   - LimiteMapa
+  - meta
   layers:
   - Default
   - TransparentFX
