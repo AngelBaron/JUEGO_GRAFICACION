@@ -12,6 +12,8 @@ public class CARROIA : MonoBehaviour {
     private int carrilActual;
     private bool cambiandoCarril = false;
 
+
+
     void Start()
     {
         cuerpo.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
