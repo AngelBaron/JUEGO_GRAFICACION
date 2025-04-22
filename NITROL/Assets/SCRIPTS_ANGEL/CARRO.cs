@@ -16,6 +16,8 @@ public class CARRO : MonoBehaviour
     private bool puedeUsarW = true; // Permitir usar W
     private bool puedeUsarS = true; // Permitir usar S
 
+    public GANAR ganar;
+
     void Update()
     {
         // Acelerar (D)
@@ -105,6 +107,18 @@ public class CARRO : MonoBehaviour
 
         // Congelar la velocidad en Y al colisionar
         cuerpo.velocity = new Vector2(cuerpo.velocity.x, 0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verificar si el carro colisiona con un objeto específico
+        if (other.CompareTag("meta"))
+        {
+            // Llamar a la función de ganar
+            ganar.MOSTRAR_MENU();
+            // Pausar el tiempo
+            Time.timeScale = 0f; // Pausar el juego
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
