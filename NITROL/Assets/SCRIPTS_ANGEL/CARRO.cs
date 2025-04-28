@@ -119,6 +119,17 @@ public class CARRO : MonoBehaviour
             // Pausar el tiempo
             Time.timeScale = 0f; // Pausar el juego
         }
+
+        if (other.CompareTag("obstaculo"))
+        {
+            Debug.Log("Colisión con obstáculo detectada.");
+            // Llamar a la función de perder
+            ganar.MOSTRAR_MENU_PERDER();
+            // Pausar el tiempo
+            Time.timeScale = 0f; // Pausar el juego
+        }
+        
+        
     }
 
     private void OnCollisionExit2D(Collision2D collision)

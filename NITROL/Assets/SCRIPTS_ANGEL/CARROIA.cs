@@ -8,7 +8,7 @@ public class CARROIA : MonoBehaviour {
     public float aceleracion = 1000f; // 🔥 Fuerza de aceleración en X
     public float velocidadMaxima = 150f; // 🚀 Límite de velocidad en X
     public float cambioCarrilVelocidad = 30f; // 🔄 Velocidad de cambio de carril en Y
-    private float[] carriles = { 11.6f, 26.2f, 36.5f };
+    public float[] carriles = { 11.6f, 26.2f, 36.5f };
     private int carrilActual;
     private bool cambiandoCarril = false;
 
